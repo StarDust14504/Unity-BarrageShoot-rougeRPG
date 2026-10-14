@@ -1,0 +1,22 @@
+首次创建项目
+git init
+git branch -M main
+git lfs install
+git add .
+git commit -m "初始化项目"
+git remote add origin 项目网址地址
+git push -u origin main
+
+同步云端进度 
+git pull --ff-only
+
+保存并上传云端
+git add .
+git commit -m "本次保存备注"
+git push
+
+查看项目变化
+git status
+
+查看历史版本
+git log --oneline
