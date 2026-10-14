@@ -7,6 +7,10 @@ git commit -m "初始化项目"
 git remote add origin 项目网址地址
 git push -u origin main
 
+新设备同步项目(在项目父目录下)
+git lfs install
+git clone 项目网址地址
+
 同步云端进度 
 git pull --ff-only
 
