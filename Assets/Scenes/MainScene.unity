@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 546239362}
   - component: {fileID: 546239368}
   - component: {fileID: 546239367}
+  - component: {fileID: 546239369}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -407,6 +408,84 @@ MonoBehaviour:
   speedMultiplier: 1
   scaleMultiplier: 1
   firePoint: {fileID: 1771253013}
+--- !u!114 &546239369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546239361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c94158aef55877946807f9a233902ac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faction: 1
+  maxHealth: 100
+  destroyOnDeath: 1
+  currentHealth: 0
+  isDead: 0
+--- !u!1001 &1140727847
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3212310273648298290, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: aimDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249404399484631844, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5930097378965367054, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
+      propertyPath: m_Name
+      value: BasicTurretEnemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6963f50b5a7833149adbf5edc52ea0dd, type: 3}
 --- !u!1 &1170660822
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,3 +757,4 @@ SceneRoots:
   - {fileID: 1405436597}
   - {fileID: 1843352577}
   - {fileID: 1170660824}
+  - {fileID: 1140727847}
